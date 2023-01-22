@@ -1,0 +1,118 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.navbar {
+  width: 100vw;
+  height: 8vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.navbar a {
+  color: white;
+  text-decoration: none;
+}
+
+.footer {
+  width: 100vw;
+  height: 8vh;
+  background-color: black;
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.book-list {
+  min-height: 84vh;
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  text-align: center;
+  background-color: rgb(210, 207, 207);
+}
+
+.book-card {
+  text-align: center;
+  background-color: rgb(228, 222, 222);
+  width: 20vw;
+  height: 30vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+  padding: 2vw 0;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+  padding: 0.2rem;
+  margin: 1rem;
+}
+.book-card img {
+  width: 13vw;
+  height: 22vw;
+  transform: scale(0.9);
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+.book-card img:hover {
+  transform: scale(1);
+}
+
+.book-card button {
+  background-color: rgb(183, 142, 142);
+  padding: 1rem;
+  border-radius: 1rem;
+  border-color: rgb(0, 0, 0);
+  font-size: large;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+.book-card button:hover {
+  background-color: rgb(194, 154, 154);
+}
+
+.favorites {
+  min-height: 84vh;
+  background-color: rgb(210, 207, 207);
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  justify-items: center;
+  text-align: center;
+}
+
+.book-details {
+  min-height: 84vh;
+  background-color: rgb(210, 207, 207);
+  display: flex;
+  align-items: center;
+  justify-items: center;
+  padding: 2rem;
+  text-shadow: 1px 1px 2px rgb(138, 126, 126);
+}
+
+.book-details img {
+  height: 30rem;
+  width: 17rem;
+  box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.book-header h4 {
+  padding: 0.5rem;
+}
+
+.book-description {
+  margin: 0 1rem 0 3rem;
+  font-size: larger;
+}
+
+.book-description p {
+  margin-bottom: 1rem;
+}
+
+.rate {
+  padding-bottom: 1rem;
+}
